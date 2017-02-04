@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1795ED1E45AEED006D8FEB /* CMoeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1795EC1E45AEED006D8FEB /* CMoeMainViewController.swift */; };
+		5B1795EF1E45AF35006D8FEB /* CMoeHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1795EE1E45AF35006D8FEB /* CMoeHomeTableViewController.swift */; };
+		5B1795F11E45AF4B006D8FEB /* CMoeDescoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1795F01E45AF4B006D8FEB /* CMoeDescoverTableViewController.swift */; };
+		5B1795F31E45AF5A006D8FEB /* CMoeMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1795F21E45AF5A006D8FEB /* CMoeMessageTableViewController.swift */; };
+		5B1795F51E45AF65006D8FEB /* CMoeProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1795F41E45AF65006D8FEB /* CMoeProfileTableViewController.swift */; };
 		5BD54BD91E45A51200501AC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD54BD81E45A51200501AC1 /* AppDelegate.swift */; };
 		5BD54BDB1E45A51200501AC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD54BDA1E45A51200501AC1 /* ViewController.swift */; };
-		5BD54BDE1E45A51200501AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD54BDC1E45A51200501AC1 /* Main.storyboard */; };
 		5BD54BE01E45A51200501AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD54BDF1E45A51200501AC1 /* Assets.xcassets */; };
-		5BD54BE31E45A51200501AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD54BE11E45A51200501AC1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B1795EC1E45AEED006D8FEB /* CMoeMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMoeMainViewController.swift; sourceTree = "<group>"; };
+		5B1795EE1E45AF35006D8FEB /* CMoeHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMoeHomeTableViewController.swift; sourceTree = "<group>"; };
+		5B1795F01E45AF4B006D8FEB /* CMoeDescoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMoeDescoverTableViewController.swift; sourceTree = "<group>"; };
+		5B1795F21E45AF5A006D8FEB /* CMoeMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMoeMessageTableViewController.swift; sourceTree = "<group>"; };
+		5B1795F41E45AF65006D8FEB /* CMoeProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMoeProfileTableViewController.swift; sourceTree = "<group>"; };
 		5BD54BD51E45A51200501AC1 /* CMoeWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMoeWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD54BD81E45A51200501AC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD54BDA1E45A51200501AC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5BD54BDD1E45A51200501AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BD54BDF1E45A51200501AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5BD54BE21E45A51200501AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BD54BE41E45A51200501AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +41,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B1795E41E45AEAC006D8FEB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5B1795E51E45AEAC006D8FEB /* Common */,
+				5B1795E61E45AEAC006D8FEB /* Descover */,
+				5B1795E71E45AEAC006D8FEB /* Home */,
+				5B1795E81E45AEAC006D8FEB /* Main */,
+				5B1795E91E45AEAC006D8FEB /* Message */,
+				5B1795EA1E45AEAC006D8FEB /* Profile */,
+				5B1795EB1E45AEAC006D8FEB /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5B1795E51E45AEAC006D8FEB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5B1795E61E45AEAC006D8FEB /* Descover */ = {
+			isa = PBXGroup;
+			children = (
+				5B1795F01E45AF4B006D8FEB /* CMoeDescoverTableViewController.swift */,
+			);
+			path = Descover;
+			sourceTree = "<group>";
+		};
+		5B1795E71E45AEAC006D8FEB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5B1795EE1E45AF35006D8FEB /* CMoeHomeTableViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5B1795E81E45AEAC006D8FEB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5B1795EC1E45AEED006D8FEB /* CMoeMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5B1795E91E45AEAC006D8FEB /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				5B1795F21E45AF5A006D8FEB /* CMoeMessageTableViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		5B1795EA1E45AEAC006D8FEB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5B1795F41E45AF65006D8FEB /* CMoeProfileTableViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5B1795EB1E45AEAC006D8FEB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		5BD54BCC1E45A51200501AC1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +130,8 @@
 			children = (
 				5BD54BD81E45A51200501AC1 /* AppDelegate.swift */,
 				5BD54BDA1E45A51200501AC1 /* ViewController.swift */,
-				5BD54BDC1E45A51200501AC1 /* Main.storyboard */,
+				5B1795E41E45AEAC006D8FEB /* Classes */,
 				5BD54BDF1E45A51200501AC1 /* Assets.xcassets */,
-				5BD54BE11E45A51200501AC1 /* LaunchScreen.storyboard */,
 				5BD54BE41E45A51200501AC1 /* Info.plist */,
 			);
 			path = CMoeWeibo;
@@ -90,6 +163,7 @@
 		5BD54BCD1E45A51200501AC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CMoe;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "陈晓林";
@@ -124,9 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BD54BE31E45A51200501AC1 /* LaunchScreen.storyboard in Resources */,
 				5BD54BE01E45A51200501AC1 /* Assets.xcassets in Resources */,
-				5BD54BDE1E45A51200501AC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,31 +209,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1795EF1E45AF35006D8FEB /* CMoeHomeTableViewController.swift in Sources */,
+				5B1795F31E45AF5A006D8FEB /* CMoeMessageTableViewController.swift in Sources */,
+				5B1795F51E45AF65006D8FEB /* CMoeProfileTableViewController.swift in Sources */,
+				5B1795F11E45AF4B006D8FEB /* CMoeDescoverTableViewController.swift in Sources */,
 				5BD54BDB1E45A51200501AC1 /* ViewController.swift in Sources */,
 				5BD54BD91E45A51200501AC1 /* AppDelegate.swift in Sources */,
+				5B1795ED1E45AEED006D8FEB /* CMoeMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5BD54BDC1E45A51200501AC1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BD54BDD1E45A51200501AC1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5BD54BE11E45A51200501AC1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BD54BE21E45A51200501AC1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5BD54BE51E45A51200501AC1 /* Debug */ = {
@@ -261,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9AAXK9CF7E;
 				INFOPLIST_FILE = CMoeWeibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -274,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9AAXK9CF7E;
 				INFOPLIST_FILE = CMoeWeibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -302,6 +362,7 @@
 				5BD54BE91E45A51200501AC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
