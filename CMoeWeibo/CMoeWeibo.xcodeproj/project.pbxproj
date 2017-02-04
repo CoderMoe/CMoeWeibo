@@ -12,8 +12,8 @@
 		5B1795F11E45AF4B006D8FEB /* CMoeDescoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1795F01E45AF4B006D8FEB /* CMoeDescoverTableViewController.swift */; };
 		5B1795F31E45AF5A006D8FEB /* CMoeMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1795F21E45AF5A006D8FEB /* CMoeMessageTableViewController.swift */; };
 		5B1795F51E45AF65006D8FEB /* CMoeProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1795F41E45AF65006D8FEB /* CMoeProfileTableViewController.swift */; };
+		5B1795F81E45C289006D8FEB /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B1795F71E45C289006D8FEB /* MainVCSettings.json */; };
 		5BD54BD91E45A51200501AC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD54BD81E45A51200501AC1 /* AppDelegate.swift */; };
-		5BD54BDB1E45A51200501AC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD54BDA1E45A51200501AC1 /* ViewController.swift */; };
 		5BD54BE01E45A51200501AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD54BDF1E45A51200501AC1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -23,9 +23,9 @@
 		5B1795F01E45AF4B006D8FEB /* CMoeDescoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMoeDescoverTableViewController.swift; sourceTree = "<group>"; };
 		5B1795F21E45AF5A006D8FEB /* CMoeMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMoeMessageTableViewController.swift; sourceTree = "<group>"; };
 		5B1795F41E45AF65006D8FEB /* CMoeProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMoeProfileTableViewController.swift; sourceTree = "<group>"; };
+		5B1795F71E45C289006D8FEB /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 		5BD54BD51E45A51200501AC1 /* CMoeWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMoeWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD54BD81E45A51200501AC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BD54BDA1E45A51200501AC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BD54BDF1E45A51200501AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BD54BE41E45A51200501AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +81,7 @@
 		5B1795E81E45AEAC006D8FEB /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				5B1795F61E45C25B006D8FEB /* Resource */,
 				5B1795EC1E45AEED006D8FEB /* CMoeMainViewController.swift */,
 			);
 			path = Main;
@@ -109,6 +110,14 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		5B1795F61E45C25B006D8FEB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5B1795F71E45C289006D8FEB /* MainVCSettings.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		5BD54BCC1E45A51200501AC1 = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				5BD54BD81E45A51200501AC1 /* AppDelegate.swift */,
-				5BD54BDA1E45A51200501AC1 /* ViewController.swift */,
 				5B1795E41E45AEAC006D8FEB /* Classes */,
 				5BD54BDF1E45A51200501AC1 /* Assets.xcassets */,
 				5BD54BE41E45A51200501AC1 /* Info.plist */,
@@ -198,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1795F81E45C289006D8FEB /* MainVCSettings.json in Resources */,
 				5BD54BE01E45A51200501AC1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +222,6 @@
 				5B1795F31E45AF5A006D8FEB /* CMoeMessageTableViewController.swift in Sources */,
 				5B1795F51E45AF65006D8FEB /* CMoeProfileTableViewController.swift in Sources */,
 				5B1795F11E45AF4B006D8FEB /* CMoeDescoverTableViewController.swift in Sources */,
-				5BD54BDB1E45A51200501AC1 /* ViewController.swift in Sources */,
 				5BD54BD91E45A51200501AC1 /* AppDelegate.swift in Sources */,
 				5B1795ED1E45AEED006D8FEB /* CMoeMainViewController.swift in Sources */,
 			);

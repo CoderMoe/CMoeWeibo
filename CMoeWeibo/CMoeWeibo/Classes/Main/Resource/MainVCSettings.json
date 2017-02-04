@@ -1,0 +1,22 @@
+[
+ {
+    "vcName": "CMoeHomeTableViewController",
+    "title": "首页",
+    "imageName": "tabbar_home"
+ },
+ {
+    "vcName": "CMoeMessageTableViewController",
+    "title": "消息",
+    "imageName": "tabbar_message_center"
+ },
+ {
+    "vcName": "CMoeMessageTableViewController",
+    "title": "广场",
+    "imageName": "tabbar_discover"
+ },
+ {
+    "vcName": "CMoeProfileTableViewController",
+    "title": "我",
+    "imageName":"tabbar_profile"
+ }
+ ]
